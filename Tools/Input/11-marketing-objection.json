@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-011",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "marketing after objection"
+                    ],
+    "date_discovered":  "2026-10-12",
+    "date_complained_to_organisation":  "2026-10-13",
+    "last_contact_date":  "2026-10-19",
+    "respondent":  {
+                       "name":  "Maple Homeware Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Daniel Frost",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "I objected to direct marketing, yet the retailer AI continued using my purchase profile to choose and send tailored promotional emails.",
+    "harm":  "I continue receiving marketing I asked to stop.",
+    "desired_outcome":  "Stop using my profile for direct marketing.",
+    "supporting_evidence":  [
+                                "The objection confirmation predates two promotional emails."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

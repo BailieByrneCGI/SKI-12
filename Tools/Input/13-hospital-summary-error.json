@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-013",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "wont correct personal information"
+                    ],
+    "date_discovered":  "2026-10-14",
+    "date_complained_to_organisation":  "2026-10-15",
+    "last_contact_date":  "2026-10-21",
+    "respondent":  {
+                       "name":  "Brookhaven NHS Trust"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Ruth Bennett",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The hospital AI discharge summary says I still take a medicine stopped last year, and the records team said it could not correct a generated summary from an archived note.",
+    "harm":  "A clinician could rely on the outdated medication list.",
+    "desired_outcome":  "Correct the record and notify relevant clinicians.",
+    "supporting_evidence":  [
+                                "The medication review records the change but the discharge summary does not."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

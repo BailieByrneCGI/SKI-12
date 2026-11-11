@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-010",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "wont delete personal information"
+                    ],
+    "date_discovered":  "2026-10-11",
+    "date_complained_to_organisation":  "2026-10-12",
+    "last_contact_date":  "2026-10-18",
+    "respondent":  {
+                       "name":  "Seabourne Fitness Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Leah Porter",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "After the gym agreed to delete old coaching notes, its AI training dashboard still listed those notes as a source and generated a summary referring to an old injury.",
+    "harm":  "Old health details may affect new recommendations.",
+    "desired_outcome":  "Explain what remains and assess the erasure request.",
+    "supporting_evidence":  [
+                                "A dashboard screenshot shows the old notes dataset."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

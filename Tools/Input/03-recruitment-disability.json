@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-003",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-04",
+    "date_complained_to_organisation":  "2026-10-05",
+    "last_contact_date":  "2026-10-11",
+    "respondent":  {
+                       "name":  "Riverton Staffing Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Marcus Bell",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "A recruiter said the AI screening tool inferred a disability from a gap in employment and ranked my application down before anyone offered an interview.",
+    "harm":  "I lost an interview opportunity.",
+    "desired_outcome":  "Review the application with a person and explain whether inferred health data was used.",
+    "supporting_evidence":  [
+                                "The recruiter email refers to an automated suitability score."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

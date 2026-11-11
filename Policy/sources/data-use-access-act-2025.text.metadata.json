@@ -1,0 +1,9 @@
+﻿{
+    "schema":  "legislation_text_extraction_v1",
+    "source_pdf":  "data-use-access-act-2025.pdf",
+    "source_sha256":  "a67c955f68a17bef5d496e0cd47aca8dbfed29574a62d8ede3717637227c163a",
+    "text_sha256":  "69f4d31526208b87dd57b968092585afebe3ab6c329f8ae808a29566d95f66af",
+    "tool":  "C:\\Program Files\\MiKTeX\\miktex\\bin\\x64\\pdftotext.exe",
+    "extracted_at_utc":  "2026-11-03T13:51:08.2551069Z",
+    "status":  "unreviewed extraction; not loaded by harness"
+}

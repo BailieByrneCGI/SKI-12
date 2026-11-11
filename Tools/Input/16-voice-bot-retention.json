@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-016",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "keeps personal information too long"
+                    ],
+    "date_discovered":  "2026-10-17",
+    "date_complained_to_organisation":  "2026-10-18",
+    "last_contact_date":  "2026-10-24",
+    "respondent":  {
+                       "name":  "Pineway Insurance Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Ibrahim Shaw",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The insurer voice bot retains recordings and transcripts of old claims calls for AI improvement without a stated deletion date, including a call from a claim closed three years ago.",
+    "harm":  "The recording contains old financial circumstances.",
+    "desired_outcome":  "Explain retention and remove unnecessary recordings.",
+    "supporting_evidence":  [
+                                "The privacy page says recordings are kept for AI improvement without a schedule."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

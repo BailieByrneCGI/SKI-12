@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-002",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-03",
+    "date_complained_to_organisation":  "2026-10-04",
+    "last_contact_date":  "2026-10-10",
+    "respondent":  {
+                       "name":  "Fenbrook Health Partnership"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Priya Hale",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The clinic AI triage portal marked my symptoms low priority and cancelled a same-day appointment without a clinician speaking to me, although I entered information about a chronic condition.",
+    "harm":  "I waited two days for an assessment.",
+    "desired_outcome":  "Explain who reviewed the decision and how health data was used.",
+    "supporting_evidence":  [
+                                "The portal screenshot shows a low-priority result followed by cancellation."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

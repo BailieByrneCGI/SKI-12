@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-015",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "personal information shared in error"
+                    ],
+    "date_discovered":  "2026-10-16",
+    "date_complained_to_organisation":  "2026-10-17",
+    "last_contact_date":  "2026-10-23",
+    "respondent":  {
+                       "name":  "Ashfield Legal Services Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Clare Jordan",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The legal AI assistant showed another client part of the medical report I uploaded for my case, and the firm has not explained how the other client retrieved it.",
+    "harm":  "Private health details were exposed.",
+    "desired_outcome":  "Contain the disclosure and explain what data was exposed.",
+    "supporting_evidence":  [
+                                "The firm acknowledged a cross-client AI answer."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

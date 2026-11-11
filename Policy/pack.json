@@ -1,0 +1,30 @@
+{
+  "schema": "department_pack_v1",
+  "id": "data-protection",
+  "name": "Data Protection",
+  "version": "1.0.0",
+  "rules": "rules",
+  "prompt": "prompt.txt",
+  "input": {
+    "schema": "ico_personal_data_complaint_v1",
+    "reference_field": "case_reference",
+    "date_field": "date_discovered",
+    "organisation_field": "respondent.name",
+    "organisation_public": true,
+    "outcome_field": "desired_outcome",
+    "claim_fields": ["narrative"],
+    "category_fields": ["complaint_type", "issue_types"],
+    "flags": [
+      {"field":"complainant.under_16","flag":"CHILD_COMPLAINANT","mode":"true","severity":"high","action":"escalate_for_review"},
+      {"field":"harm","flag":"HARM_REPORTED","mode":"present","ignore_value":"none","severity":"medium"},
+      {"field":"complainant.acting_on_behalf","flag":"AUTHORITY_TO_ACT_REVIEW","mode":"true"},
+      {"field":"sharing_restrictions","flag":"SHARING_RESTRICTION","mode":"present"},
+      {"field":"declaration_agreed","flag":"DECLARATION_MISSING","mode":"false"}
+    ]
+  },
+  "labels": {
+    "organisation": "Respondent",
+    "outcome": "Requested outcome",
+    "rule": "Article"
+  }
+}

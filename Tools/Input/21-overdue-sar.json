@@ -1,0 +1,26 @@
+{
+  "schema": "ico_personal_data_complaint_v1",
+  "case_reference": "AI-021",
+  "complaint_type": "access",
+  "issue_types": ["no response to subject access request", "overdue response"],
+  "date_discovered": "2026-10-01",
+  "date_complained_to_organisation": "2026-10-02",
+  "last_contact_date": "2026-10-27",
+  "respondent": {"name": "Westbridge Borough Council"},
+  "complainant": {
+    "acting_on_behalf": false,
+    "name": "Maya Ellis",
+    "person_represented": "",
+    "under_16": false
+  },
+  "narrative": "I submitted a subject access request on 25 August 2026 for my housing benefit records and the AI fraud-risk score used in my application, but the council missed the one-month deadline: it acknowledged the request that day, asked for no ID, clarification, or fee, sent no extension notice, and had provided neither the records nor an explanation by 3 November 2026.",
+  "harm": "Without the records I cannot check the AI fraud-risk score or challenge the benefit decision.",
+  "desired_outcome": "Provide the requested personal data or a clear lawful explanation for not acting, and confirm when the request will be completed.",
+  "supporting_evidence": [
+    "Copy of the subject access request emailed on 25 August 2026.",
+    "Automated acknowledgment received on 25 August 2026.",
+    "Follow-up emails sent on 2 and 27 October 2026 without a substantive reply."
+  ],
+  "sharing_restrictions": "",
+  "declaration_agreed": true
+}

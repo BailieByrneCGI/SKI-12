@@ -1,0 +1,26 @@
+{
+  "schema": "department_pack_v1",
+  "id": "replace-with-department-id",
+  "name": "Replace With Department Name",
+  "version": "1.0.0",
+  "rules": "rules",
+  "prompt": "prompt.txt",
+  "input": {
+    "schema": "department_case_v1",
+    "reference_field": "case_reference",
+    "date_field": "event_date",
+    "organisation_field": "team",
+    "organisation_public": true,
+    "outcome_field": "requested_outcome",
+    "claim_fields": ["summary", "details"],
+    "category_fields": ["categories"],
+    "flags": [
+      {"field":"urgent","flag":"URGENT_REVIEW","mode":"true","severity":"high","action":"escalate_for_review"}
+    ]
+  },
+  "labels": {
+    "organisation": "Team",
+    "outcome": "Requested outcome",
+    "rule": "Policy"
+  }
+}

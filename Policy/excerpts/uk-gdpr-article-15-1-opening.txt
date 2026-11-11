@@ -1,0 +1,4 @@
+UK GDPR, Article 15(1), right of access, opening sentence only, legislation.gov.uk, checked 2026-11-03
+https://www.legislation.gov.uk/eur/2016/679/article/15
+
+1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information:

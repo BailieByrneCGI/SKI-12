@@ -1,0 +1,50 @@
+# Build products and local tool caches
+/build/
+/.cache/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Generated review output (retain Output/README.md)
+/Output/run-*/
+/Output/CASE-*/
+/Output/Quarantine/
+/Output/index.md
+/Output/manifest.json
+/Output/audit.tsv
+/Output/archive/
+/Output/Analytics/
+
+# Local reviewer data and sensitive mappings
+/Tools/R/reviewer_decisions.csv
+*.sensitive.tsv
+
+# Local editors and operating-system metadata
+/.vscode/
+/.idea/
+*.suo
+*.user
+*.swp
+.DS_Store
+Thumbs.db
+
+# Credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Duplicate/exported workspace archives
+/SKI-12.zip
+
+# Raw legislation XML contains opaque upstream identifiers that trigger
+# GitHub secret-scanning false positives. Keep its provenance metadata and
+# regenerate the source locally when required.
+/Policy/sources/*.xml

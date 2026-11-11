@@ -1,0 +1,12 @@
+﻿{
+    "schema":  "legislation_source_v1",
+    "name":  "uk-gdpr-2026-09-30",
+    "requested_url":  "https://www.legislation.gov.uk/eur/2016/679/2026-09-30/data.xml",
+    "final_url":  "http://www.legislation.gov.uk/eur/2016/679/2026-09-30/data.xml",
+    "format":  "xml",
+    "retrieved_at_utc":  "2026-11-03T13:50:12.5903184Z",
+    "sha256":  "e1d81764bf0cfd82fef14f6838247e13a48b931a9d59630f01e1ba35c29e32f4",
+    "bytes":  1689366,
+    "status":  "transport-unverified reference; clause review required before use by harness",
+    "transport_warning":  "The official HTTPS XML endpoint redirected to HTTP; do not derive rules from this copy without independent verification."
+}

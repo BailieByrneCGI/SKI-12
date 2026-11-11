@@ -1,0 +1,14 @@
+{
+  "schema": "policy_rules_v1",
+  "tier": "policy",
+  "effective_from": "2026-01-01",
+  "clauses": [
+    {
+      "id": "DEPT-001",
+      "text": "Replace this text with a concise, reviewer-approved statement of the departmental rule.",
+      "tags": ["replace", "example", "department"],
+      "review_action": "request the records needed to assess this departmental rule",
+      "required_evidence": "The source record, relevant correspondence and approval history"
+    }
+  ]
+}

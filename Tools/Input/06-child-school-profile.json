@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-006",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-07",
+    "date_complained_to_organisation":  "2026-10-08",
+    "last_contact_date":  "2026-10-14",
+    "respondent":  {
+                       "name":  "Moorfield Academy Trust"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  true,
+                        "name":  "Olivia Reed",
+                        "person_represented":  "Jamie Reed",
+                        "under_16":  true
+                    },
+    "narrative":  "The school attendance AI combined my child lunch and library records with absence data and labelled the child high risk in a staff meeting.",
+    "harm":  "Staff now discuss the child differently.",
+    "desired_outcome":  "Explain why extra records were needed and correct any inaccurate profile.",
+    "supporting_evidence":  [
+                                "The meeting note lists lunch and library records as model inputs."
+                            ],
+    "sharing_restrictions":  "Do not share detailed records with the AI supplier while this is reviewed.",
+    "declaration_agreed":  true
+}

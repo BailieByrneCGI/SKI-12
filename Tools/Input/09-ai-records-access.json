@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-009",
+    "complaint_type":  "access",
+    "issue_types":  [
+                        "sent only some information requested"
+                    ],
+    "date_discovered":  "2026-10-10",
+    "date_complained_to_organisation":  "2026-10-11",
+    "last_contact_date":  "2026-10-17",
+    "respondent":  {
+                       "name":  "Eastbrook Housing Association"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Farah Brooks",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "My subject access response included tenancy letters but omitted the tenant-risk AI profile and input records that a caseworker had previously shown me.",
+    "harm":  "I cannot check whether the profile is accurate.",
+    "desired_outcome":  "Provide the personal data or explain a lawful reason for withholding it.",
+    "supporting_evidence":  [
+                                "The access request explicitly named tenant-risk profiles."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

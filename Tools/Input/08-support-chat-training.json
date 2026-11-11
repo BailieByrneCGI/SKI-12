@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-008",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "unexpected use of personal information"
+                    ],
+    "date_discovered":  "2026-10-09",
+    "date_complained_to_organisation":  "2026-10-10",
+    "last_contact_date":  "2026-10-16",
+    "respondent":  {
+                       "name":  "Cedar Retail Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Ben Fletcher",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The retailer used old support chats about a faulty order to train an AI sales assistant, but the notice shown when I contacted support described only resolving the order.",
+    "harm":  "My complaint text may appear in customer-facing answers.",
+    "desired_outcome":  "Explain the purpose and lawful basis for AI training.",
+    "supporting_evidence":  [
+                                "The old support transcript and new training notice have different stated purposes."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-017",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "information collected elsewhere"
+                    ],
+    "date_discovered":  "2026-10-18",
+    "date_complained_to_organisation":  "2026-10-19",
+    "last_contact_date":  "2026-10-25",
+    "respondent":  {
+                       "name":  "CareerBridge Labs Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Maya Ellis",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "A job platform scraped my public CV from another site to train an AI career adviser, but I never dealt with that platform or received a privacy notice about collection.",
+    "harm":  "I cannot tell what work history was retained.",
+    "desired_outcome":  "Explain the source, purpose, lawful basis and any notice exception.",
+    "supporting_evidence":  [
+                                "The platform confirmed it collected the CV from another site."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

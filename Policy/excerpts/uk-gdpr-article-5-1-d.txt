@@ -1,0 +1,5 @@
+UK GDPR, Article 5(1)(d), accuracy, legislation.gov.uk, checked 2026-11-03
+https://www.legislation.gov.uk/eur/2016/679/article/5
+
+Personal data shall be:
+(d) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (‘accuracy’);

@@ -1,0 +1,11 @@
+﻿{
+    "schema":  "legislation_source_v1",
+    "name":  "data-use-access-act-2025",
+    "requested_url":  "https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpga_20250018_en.pdf",
+    "final_url":  "https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpga_20250018_en.pdf",
+    "format":  "pdf",
+    "retrieved_at_utc":  "2026-11-03T13:49:55.8032225Z",
+    "sha256":  "a67c955f68a17bef5d496e0cd47aca8dbfed29574a62d8ede3717637227c163a",
+    "bytes":  2951193,
+    "status":  "raw source; clause review required before use by harness"
+}

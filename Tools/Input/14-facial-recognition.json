@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-014",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "biometric identification"
+                    ],
+    "date_discovered":  "2026-10-15",
+    "date_complained_to_organisation":  "2026-10-16",
+    "last_contact_date":  "2026-10-22",
+    "respondent":  {
+                       "name":  "Townline Supermarkets Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Owen Grant",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "A store manager said facial-recognition cameras compared shoppers to a watch list, and I was stopped after a false match despite seeing only a general CCTV sign at the entrance.",
+    "harm":  "The stop was distressing and public.",
+    "desired_outcome":  "Explain the biometric basis, risk assessment and false-match correction.",
+    "supporting_evidence":  [
+                                "The incident card records a false match."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

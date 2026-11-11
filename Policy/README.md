@@ -1,0 +1,15 @@
+# Policy sources and case rules
+
+This folder is also a complete `department_pack_v1` pack. `pack.json` maps the included complaint form, `prompt.txt` holds reviewer instructions, and each reviewed rule declares its own next action and required evidence. Validate it with `build/rag-cli.exe validate-pack --pack Policy` after changing the rulebook.
+
+`sources/` holds downloaded official PDFs, HTML or text plus a JSON provenance record. `rules/` holds reviewed, clause-level TXT or JSON summaries that the harness can retrieve. `excerpts/` holds checked Article wording referenced by a rule's `excerpt_file`. The harness reads reviewed rules and their linked excerpts; merely downloading a PDF does not make its contents decision-ready.
+
+The included `rules/uk_gdpr_2026.json` is a test snapshot of short triage summaries linked to the [current revised UK GDPR](https://www.legislation.gov.uk/eur/2016/679), whose latest available revision was dated 30 September 2026 when this workspace was prepared. Its `effective_from` is the snapshot start for these October 2026 exercises, not each article's legal commencement date. A reviewer must check the linked article, amendments and exemptions before any case decision. The [Data (Use and Access) Act 2025 PDF](https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpga_20250018_en.pdf) contains the amending text for Articles 22A–22D; the old 2016 GDPR PDF does not reflect those changes.
+
+To pull an official source into `sources/`, run `Tools/pull_legislation.ps1` with its URL and a short name. The tool saves bytes and a SHA-256 metadata record. A reviewer then creates or updates the corresponding clause summaries in `rules/`.
+
+For the credit-report exercise, [Article 5(1)(d)](https://www.legislation.gov.uk/eur/2016/679/article/5) and [Article 16](https://www.legislation.gov.uk/eur/2016/679/article/16) were checked against the legislation pages and placed in `excerpts/`. The harness includes their wording in Hermes's prompt when retrieved. It flags candidate rules without a checked excerpt as `SOURCE_EXCERPT_MISSING`. Article 15 requires evidence that access rights were exercised before treating the lender's refusal as an access complaint.
+
+For the overdue SAR exercise, the reviewed rules link [Article 12(3)-(4) and Article 12A](https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1/2026-09-30). The normal one-month period can start later when requested identity information or a fee is supplied, can be extended with timely notice for complexity or volume, and can pause for reasonable clarification. The case fixture alleges none of those events; a reviewer must verify its correspondence and response log. The opening sentence of [Article 15(1)](https://www.legislation.gov.uk/eur/2016/679/article/15) is also included as a checked excerpt.
+
+The UK GDPR XML reference downloaded during setup followed an HTTP redirect and is marked transport-unverified in its metadata; use the HTTPS legislation page for verification. The downloader now rejects such redirects. The Act PDF was retrieved over HTTPS and has a matching extracted TXT reference; neither raw source is automatically indexed.

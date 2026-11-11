@@ -1,0 +1,11 @@
+{
+  "schema": "department_case_v1",
+  "case_reference": "DEPT-1001",
+  "event_date": "2026-10-01",
+  "team": "Example Operations",
+  "categories": ["example department"],
+  "summary": "The departmental process was not followed when the request was reviewed.",
+  "details": "The case record does not show the required approval or the reason for the decision.",
+  "requested_outcome": "Review the process and record the outcome.",
+  "urgent": false
+}

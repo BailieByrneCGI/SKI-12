@@ -1,0 +1,10 @@
+{
+  "schema": "legislation_sources_v1",
+  "reviewed_snapshot_date": "2026-09-30",
+  "sources": [
+    {"name":"Current revised UK GDPR","url":"https://www.legislation.gov.uk/eur/2016/679","format":"html","status":"linked; verify latest changes before casework"},
+    {"name":"Data (Use and Access) Act 2025","url":"https://www.legislation.gov.uk/ukpga/2025/18/pdfs/ukpga_20250018_en.pdf","format":"pdf","status":"amending Act as enacted; not consolidated UK GDPR"},
+    {"name":"Data Protection Act 2018","url":"https://www.legislation.gov.uk/ukpga/2018/12","format":"html","status":"revised text; check point-in-time version"},
+    {"name":"ICO personal information complaint form","url":"https://ico.org.uk/media/2259547/personal-information-complaints-form-new-final-2307.pdf","format":"pdf","status":"form example; check current ICO form"}
+  ]
+}

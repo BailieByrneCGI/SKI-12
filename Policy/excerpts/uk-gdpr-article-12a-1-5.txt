@@ -1,0 +1,23 @@
+UK GDPR, Article 12A(1)-(5), applicable time period, legislation.gov.uk, checked 2026-11-03
+https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1/2026-09-30
+
+1. In Article 12, “the applicable time period” means the period of one month beginning with the relevant time, subject to paragraph 3.
+
+2. “The relevant time” means the latest of the following—
+(a) when the controller receives the request in question;
+(b) when the controller receives the information (if any) requested in connection with a request under Article 12(6);
+(c) when the fee (if any) charged in connection with the request under Article 12(5) is paid.
+
+3. The controller may, by giving notice to the data subject, extend the applicable time period by two further months where that is necessary by reason of—
+(a) the complexity of requests made by the data subject, or
+(b) the number of such requests.
+
+4. A notice under paragraph 3 must—
+(a) be given before the end of the period of one month beginning with the relevant time, and
+(b) state the reasons for the delay.
+
+5. Where the controller reasonably requires further information in order to identify the information or processing activities to which a request under Article 15 relates—
+(a) the controller may ask the data subject to provide the further information, and
+(b) the period beginning with the day on which the controller makes the request and ending with the day on which the controller receives the information does not count towards—
+(i) the applicable time period, or
+(ii) the period described in paragraph 4(a).

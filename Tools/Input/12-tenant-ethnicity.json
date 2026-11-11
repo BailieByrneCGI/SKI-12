@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-012",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-13",
+    "date_complained_to_organisation":  "2026-10-14",
+    "last_contact_date":  "2026-10-20",
+    "respondent":  {
+                       "name":  "Fellside Lettings Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Yasmin Clarke",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The letting agent said its AI tenancy score inferred ethnicity from my surname and neighbourhood and marked my application unsuitable before anyone met me.",
+    "harm":  "I lost the chance to rent the flat.",
+    "desired_outcome":  "Explain the inputs and review the application with a person.",
+    "supporting_evidence":  [
+                                "The agent message describes the AI score and lack of manual override."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

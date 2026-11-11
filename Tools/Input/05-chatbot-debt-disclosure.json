@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-005",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "personal information shared in error"
+                    ],
+    "date_discovered":  "2026-10-06",
+    "date_complained_to_organisation":  "2026-10-07",
+    "last_contact_date":  "2026-10-13",
+    "respondent":  {
+                       "name":  "Orchard Utilities Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Samir Cole",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The utility chatbot showed a different customer a summary of my bills and claimed I owed money on an account I have never shared with that customer.",
+    "harm":  "The other customer contacted me about the alleged debt.",
+    "desired_outcome":  "Correct the account data and explain who saw the billing history.",
+    "supporting_evidence":  [
+                                "A screenshot of the chatbot answer was sent to me."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

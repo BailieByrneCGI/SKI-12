@@ -1,0 +1,6 @@
+UK GDPR, Article 12(3)-(4), response to data subject requests, legislation.gov.uk, checked 2026-11-03
+https://www.legislation.gov.uk/eur/2016/679/chapter/III/section/1/2026-09-30
+
+3. The controller shall provide information on action taken on a request made under or by virtue of Articles 15 to 22D to the data subject without undue delay and in any event before the end of the applicable time period (see Article 12A).
+
+4. If the controller does not take action on the request of the data subject, the controller shall inform the data subject without undue delay, and in any event before the end of the applicable time period (see Article 12A), of the reasons for not taking action and on the possibility of making a complaint to the controller under section 164A of the 2018 Act, making a complaint to the Commission under section 165 of that Act and seeking a judicial remedy.

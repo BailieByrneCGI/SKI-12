@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-004",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "incorrect personal information"
+                    ],
+    "date_discovered":  "2026-10-05",
+    "date_complained_to_organisation":  "2026-10-06",
+    "last_contact_date":  "2026-10-12",
+    "respondent":  {
+                       "name":  "Harbourline Finance Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Nadia Rowan",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The lender AI affordability report says I missed three mortgage payments, although I never had a mortgage, and the lender used the report to refuse my credit application.",
+    "harm":  "The refusal delayed a necessary purchase.",
+    "desired_outcome":  "Correct the record and reconsider the application.",
+    "supporting_evidence":  [
+                                "The affordability report lists alleged missed mortgage payments."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

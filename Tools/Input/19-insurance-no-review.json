@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-019",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-20",
+    "date_complained_to_organisation":  "2026-10-21",
+    "last_contact_date":  "2026-10-27",
+    "respondent":  {
+                       "name":  "Bracken Mutual Ltd"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Peter Cole",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The insurer automatically rejected my flood claim using image analysis, and the rejection letter gave no route to contest the score or request human reconsideration.",
+    "harm":  "I need a decision to begin home repairs.",
+    "desired_outcome":  "Provide human review and explain the contest route.",
+    "supporting_evidence":  [
+                                "The letter refers to image analysis but has no review route."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

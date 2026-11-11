@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-007",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "unexpected use of personal information"
+                    ],
+    "date_discovered":  "2026-10-08",
+    "date_complained_to_organisation":  "2026-10-09",
+    "last_contact_date":  "2026-10-15",
+    "respondent":  {
+                       "name":  "Alderwick County Council"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Helen Vale",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The council used historic social care notes to train a case-summary AI through a contractor, but its earlier privacy notice did not mention this use of family records.",
+    "harm":  "The notes contain sensitive family and health details.",
+    "desired_outcome":  "Identify the legal basis, contractor role and whether my records were included.",
+    "supporting_evidence":  [
+                                "The council privacy update describes retrospective use of case notes."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

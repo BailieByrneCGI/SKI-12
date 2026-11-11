@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-020",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "incorrect personal information"
+                    ],
+    "date_discovered":  "2026-10-21",
+    "date_complained_to_organisation":  "2026-10-22",
+    "last_contact_date":  "2026-10-28",
+    "respondent":  {
+                       "name":  "Greenbank Community Trust"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Tara Mills",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The charity AI background-check tool matched me with another person criminal conviction and marked my volunteer application unsuitable although the birth date in the match report is not mine.",
+    "harm":  "I was excluded and the false record remains on file.",
+    "desired_outcome":  "Correct the match, restrict sharing and review the application.",
+    "supporting_evidence":  [
+                                "The match report shows a different birth date."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}

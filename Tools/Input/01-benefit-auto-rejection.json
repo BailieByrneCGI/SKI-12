@@ -1,0 +1,28 @@
+{
+    "schema":  "ico_personal_data_complaint_v1",
+    "case_reference":  "AI-001",
+    "complaint_type":  "processing",
+    "issue_types":  [
+                        "automated decisions or profiling"
+                    ],
+    "date_discovered":  "2026-10-02",
+    "date_complained_to_organisation":  "2026-10-03",
+    "last_contact_date":  "2026-10-09",
+    "respondent":  {
+                       "name":  "Westmere Borough Council"
+                   },
+    "complainant":  {
+                        "acting_on_behalf":  false,
+                        "name":  "Elena Marsh",
+                        "person_represented":  "",
+                        "under_16":  false
+                    },
+    "narrative":  "The council rejected my housing support application after an automated risk score marked my earnings as inconsistent, and an officer told me nobody checked the score before the decision was sent.",
+    "harm":  "My rent payment is at risk.",
+    "desired_outcome":  "Have a person review the decision and explain the score.",
+    "supporting_evidence":  [
+                                "The decision notice refers to an automated verification check."
+                            ],
+    "sharing_restrictions":  "",
+    "declaration_agreed":  true
+}
